@@ -1,0 +1,19 @@
+.feed{
+    flex:5;
+    /* width: 50%; */
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.feed-wrapper{
+    padding: 20px;
+}
